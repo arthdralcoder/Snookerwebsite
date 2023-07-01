@@ -1,0 +1,953 @@
+@keyframes rotate-center {
+    0% {
+      -webkit-transform: rotate(0);
+      transform: rotate(0);
+    }
+    to {
+      transform: rotate(360deg);
+    }
+  }
+  .navbar1 {
+    position: absolute;
+    top: 28px;
+    left: 0;
+    background: linear-gradient(180deg, #5ab821, rgba(90, 184, 33, 0));
+    width: 100vw;
+    height: 68px;
+  }
+  .the-que {
+    margin: 0;
+  }
+  
+  .the-que-club-container {
+    margin: 0;
+    position: absolute;
+    top: 28px;
+    left: 16px;
+    font-size: var(--font-size-4xl);
+    font-weight: 400;
+    font-family: var(--font-goblin-one);
+    text-align: center;
+    display: inline-block;
+    width: 156px;
+    height: 79px;
+  }
+  .about,
+  .home,
+  .link,
+  .membership {
+    cursor: pointer;
+    border: 0;
+    padding: 0;
+    background-color: transparent;
+    position: absolute;
+    top: 50px;
+    left: 206px;
+    font-size: 15px
+    font-family: var(--font-farro);
+    color: var(--color-white);
+    text-align: left;
+    display: inline-block;
+  }
+  .home{
+    text-decoration: underline;
+  }
+  .about,
+  .link,
+  .membership {
+    left: 307px;
+  }
+  .link,
+  .membership {
+    top: 50px;
+    left: 410px;
+  }
+  .membership {
+    top: 50px;
+    left: 517px;
+  }
+  .reservations {
+    top: 50px;
+    left: 657px;
+  }
+  .facilities,
+  .news,
+  .rankings,
+  .reservations {
+    cursor: pointer;
+    border: 0;
+    padding: 0;
+    background-color: transparent;
+    position: absolute;
+    font-size: 15px
+    font-family: var(--font-farro);
+    color: var(--color-white);
+    text-align: left;
+    display: inline-block;
+  }
+  .news {
+    top: 50px;
+    left: 802px;
+    transform: rotate(-1.3deg);
+    transform-origin: 0 0;
+  }
+  .facilities,
+  .rankings {
+    top: 50px;
+    left: 901px;
+  }
+  .facilities {
+    left: 1022px;
+  }
+  .search-2-line-icon {
+    position: absolute;
+    cursor: pointer;
+    top: 48px;
+    left: 1142px;
+    width: 24px;
+    height: 24px;
+    overflow: hidden;
+  }
+  .search-bar{
+    position: absolute;
+    cursor: pointer;
+    top: 48px;
+    left: 1175px;
+    width: 100px;
+    height: 24px;
+    border-radius: 15px;
+    border-bottom: black;
+    border: none;
+  }
+  .embark-on-an,
+  .welcome-to-our {
+    position: absolute;
+    left: 36px;
+    display: inline-block;
+  }
+  .welcome-to-our {
+    top: 173px;
+    font-size: 36px;
+    letter-spacing: 0.1em;
+    font-family: var(--font-habibi);
+    width: 550px;
+    height: 174px;
+  }
+  .embark-on-an {
+    top: 363px;
+    font-size: var(--font-size-base);
+    letter-spacing: 0.05em;
+    line-height: 35px;
+    text-transform: capitalize;
+    font-weight: 300;
+    text-align: justify;
+    width: 550px;
+    height: 271px;
+  }
+  .image-1-icon,
+  .image-2-icon {
+    position: absolute;
+    object-fit: cover;
+  }
+  .image-1-icon {
+    top: 173px;
+    left: 559px;
+    border-radius: 96px;
+    width: 593px;
+    height: 433px;
+    margin-left: 200px;
+  }
+  .image-2-icon {
+    top: 737px;
+    left: 35px;
+    width: 787px;
+    height: 556px;
+    cursor: pointer
+  }
+  .want-to-know {
+    position: absolute;
+    top: 953px;
+    left: 834px;
+    font-size: var(--font-size-6xl);
+    letter-spacing: 0.05em;
+    line-height: 143%;
+    text-transform: capitalize;
+    display: inline-block;
+    font-family: var(--font-farro);
+    width: 320px;
+    padding-left: 50px;
+    -webkit-text-stroke: 1px #000;
+  }
+  .click-here {
+    position: relative;
+    font-size: var(--font-size-lg);
+    line-height: 28px;
+    font-family: var(--font-fira-sans);
+    color: var(--color-white);
+    text-align: left;
+    display: inline-block;
+    width: 94px;
+    height: 28px;
+    flex-shrink: 0;
+  }
+  .button-1 {
+    cursor: pointer;
+    border: 0;
+    padding: var(--padding-5xs) var(--padding-5xl);
+    background-color: var(--color-mediumblue);
+    position: absolute;
+    top: 1038px;
+    left: 904px;
+    border-radius: var(--br-11xl);
+    box-shadow: 0 10px 30px rgba(64, 106, 255, 0.24);
+    width: 142px;
+    height: 45px;
+    display: flex;
+    flex-direction: column;
+    box-sizing: border-box;
+    align-items: flex-start;
+    justify-content: flex-end;
+  }
+  .image-5-icon {
+    position: absolute;
+    top: 1503px;
+    left: 62px;
+    width: 1076px;
+    height: 474px;
+    object-fit: cover;
+  }
+  .Blue-line{
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+  }
+  .Blue-line-in-middle {
+    position: absolute;
+    top: 2251px;
+    left: 1px;
+    background-color: var(--color-mediumslateblue);
+    width: 100vw;
+    height: 213px;
+  }
+  .active-events,
+  .no-of-players-container,
+  .tournaments {
+    position: absolute;
+    font-size: var(--font-size-xs);
+    letter-spacing: 0.01em;
+    line-height: 143%;
+    text-transform: uppercase;
+    color: var(--color-lightskyblue);
+  }
+  .no-of-players-container {
+    top: 2336px;
+    left: 185px;
+    display: inline-block;
+    width: 100px;
+  }
+  .active-events,
+  .tournaments {
+    top: 2340px;
+    left: 337px;
+  }
+  .active-events {
+    top: 2332px;
+    left: 537px;
+  }
+  .span {
+    font-size: var(--font-size-5xl);
+  }
+  .events-held {
+    top: 2320px;
+    left: 917px;
+    color: var(--color-lightskyblue);
+    font-size: var(--font-size-xs);
+  }
+  .b,
+  .b1,
+  .b2,
+  .b3,
+  .b4,
+  .events-held,
+  .membership-plans,
+  .no-of-tables {
+    position: absolute;
+    letter-spacing: 0.01em;
+    line-height: 143%;
+    text-transform: uppercase;
+  }
+  .no-of-tables {
+    top: 2338px;
+    left: 707px;
+    font-size: var(--font-size-xs);
+    color: var(--color-lightskyblue);
+  }
+  .b,
+  .b1,
+  .b2,
+  .b3,
+  .b4,
+  .membership-plans {
+    top: 2294px;
+    left: 185px;
+    font-size: var(--font-size-5xl);
+  }
+  .b1,
+  .b2,
+  .b3,
+  .b4,
+  .membership-plans {
+    left: 357px;
+  }
+  .b2,
+  .b3,
+  .b4,
+  .membership-plans {
+    top: 2291px;
+    left: 546px;
+  }
+  .b3,
+  .b4,
+  .membership-plans {
+    left: 732px;
+  }
+  .b4,
+  .membership-plans {
+    left: 920px;
+  }
+  .membership-plans {
+    top: 2619px;
+    left: 424px;
+    font-size: var(--font-size-11xl);
+    letter-spacing: 0.05em;
+    font-family: var(--font-farro);
+    text-align: center;
+  }
+  .rectangle-div,
+  .snooker-landing-page-desktop-child1,
+  .snooker-landing-page-desktop-inner {
+    position: absolute;
+    top: 2754px;
+    left: 46px;
+    border-radius: var(--br-40xl);
+    background-color: var(--color-snow-100);
+    width: 290px;
+    height: 506px;
+  }
+  .rectangle-div,
+  .snooker-landing-page-desktop-child1 {
+    left: 467px;
+    height: 499px;
+  }
+  .snooker-landing-page-desktop-child1 {
+    left: 855px;
+  }
+  .year-long-access-container,
+  .yearly-membership {
+    position: absolute;
+    letter-spacing: 0.05em;
+    text-transform: capitalize;
+    font-weight: 500;
+    font-family: var(--font-farro);
+    color: var(--color-black);
+    display: inline-block;
+  }
+  .yearly-membership {
+    top: 2821px;
+    left: 84px;
+    font-size: var(--font-size-5xl);
+    line-height: 143%;
+    text-align: center;
+    width: 203px;
+    height: 56px;
+  }
+  .year-long-access-container {
+    top: 2931px;
+    left: 87px;
+    font-size: var(--font-size-base);
+    line-height: 200%;
+    width: 226px;
+    height: 138px;
+  }
+  .p {
+    margin-block-start: 0;
+    margin-block-end: 10px;
+  }
+  .div,
+  .image-12-icon {
+    position: absolute;
+    top: 3085px;
+  }
+  .div {
+    left: 120px;
+    font-size: var(--font-size-13xl);
+    letter-spacing: 0.05em;
+    line-height: 200%;
+    text-transform: capitalize;
+    font-weight: 500;
+    font-family: var(--font-farro);
+    color: var(--color-black);
+    display: inline-block;
+    width: 142px;
+    height: 79px;
+  }
+  .image-12-icon {
+    left: 70px;
+    width: 41px;
+    height: 52px;
+    object-fit: cover;
+  }
+  .free-pass-to-container,
+  .monthly-membership {
+    position: absolute;
+    letter-spacing: 0.05em;
+    text-transform: capitalize;
+    font-weight: 500;
+    font-family: var(--font-farro);
+    color: var(--color-black);
+    display: inline-block;
+  }
+  .monthly-membership {
+    top: 2817px;
+    left: 474px;
+    font-size: var(--font-size-5xl);
+    line-height: 143%;
+    text-align: center;
+    width: 259px;
+    height: 57px;
+  }
+  .free-pass-to-container {
+    top: 2926px;
+    left: 517px;
+    font-size: var(--font-size-base);
+    line-height: 200%;
+    width: 189px;
+    height: 125px;
+  }
+  .image-17-icon {
+    position: absolute;
+    top: 3082px;
+    left: 517px;
+    width: 41px;
+    height: 52px;
+    object-fit: cover;
+  }
+  
+  .weekly-membership {
+    position: absolute;
+    letter-spacing: 0.05em;
+    text-transform: capitalize;
+    font-weight: 500;
+    font-family: var(--font-farro);
+    color: var(--color-black);
+    display: inline-block;
+  }
+  .weekly-membership {
+    top: 2821px;
+    left: 885px;
+    font-size: var(--font-size-5xl);
+    line-height: 143%;
+    text-align: center;
+    width: 203px;
+    height: 56px;
+  }
+  .div1,
+  .div2,
+  .tables-resesrved-247-container {
+    position: absolute;
+    top: 3082px;
+    left: 568px;
+    font-size: var(--font-size-13xl);
+    letter-spacing: 0.05em;
+    line-height: 200%;
+    text-transform: capitalize;
+    font-weight: 500;
+    font-family: var(--font-farro);
+    color: var(--color-black);
+    display: inline-block;
+    width: 142px;
+    height: 79px;
+  }
+  .div2,
+  .tables-resesrved-247-container {
+    top: 2931px;
+    left: 900px;
+    font-size: var(--font-size-base);
+    width: 207px;
+    height: 85px;
+  }
+  .div2 {
+    top: 3079px;
+    left: 958px;
+    font-size: var(--font-size-13xl);
+    width: 142px;
+    height: 79px;
+  
+  }
+  .image-18-icon,
+  .image-19-icon,
+  .image-20-icon {
+    position: absolute;
+    top: 3079px;
+    left: 907px;
+    width: 41px;
+    height: 52px;
+    object-fit: cover;
+    cursor: pointer;
+  }
+  .image-19-icon,
+  .image-20-icon {
+    top: 1669px;
+    left: 62px;
+    width: 74px;
+    height: 80px;
+  }
+  .image-20-icon {
+    top: 1653px;
+    left: 1064px;
+  }
+  .membs{
+    flex-wrap: wrap;
+    flex-direction: row;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+  .contact-us {
+    top: 3383px;
+    left: 517px;
+    font-size: var(--font-size-11xl);
+    display: inline-block;
+    width: 159px;
+    height: 45px;
+  }
+  .contact-us,
+  .examplemaileru,
+  .name,
+  .text {
+    font-weight: 500;
+    position: absolute;
+  }
+  .name {
+    top: 3530px;
+    left: 54px;
+    font-family: var(--font-farro);
+    display: inline-block;
+    width: 86px;
+    height: 31px;
+  }
+  .examplemaileru,
+  .text {
+    border: 0;
+    font-size: var(--font-size-lg);
+    background-color: white;
+    left: 49px;
+    color: black;
+  }
+  .text {
+    text-col
+    font-family: var(--font-fira-sans);
+    top: 3574px;
+    text-align: left;
+    display: inline-block;
+    width: 108px;
+    height: 27px;
+  }
+  
+  .examplemaileru {
+    top: 3855px;
+    width: 189px;
+    height: 28px;
+  }
+  .examplemaileru,
+  .send-message,
+  .start-typing {
+    font-family: var(--font-fira-sans);
+    text-align: left;
+    display: inline-block;
+  }
+  .start-typing {
+    border: 0;
+    font-weight: 500;
+    font-size: var(--font-size-lg);
+    background-color: white;
+    position: absolute;
+    top: 4007px;
+    left: 49px;
+    color: black;
+    width: 118px;
+    height: 26px;
+  }
+  .send-message {
+    position: relative;
+    font-size: var(--font-size-xs);
+    line-height: 28px;
+    color: var(--color-white);
+    width: 121px;
+  }
+  .button-3 {
+    cursor: pointer;
+    border: 0;
+    padding: 9.843402862548828px 3.035175323486328px;
+    background-color: var(--color-mediumblue);
+    position: absolute;
+    top: 4084px;
+    left: 44px;
+    border-radius: var(--br-11xl);
+    box-shadow: 0 10px 30px rgba(64, 106, 255, 0.24);
+    width: 130px;
+    height: 41px;
+    display: flex;
+    flex-direction: column;
+    box-sizing: border-box;
+    align-items: flex-end;
+    justify-content: flex-end;
+    opacity: 1;
+  }
+  
+  .snooker-landing-page-desktop-child2,
+  .snooker-landing-page-desktop-child3,
+  .text2 {
+    position: absolute;
+    left: 49px;
+    border-radius: var(--br-9xs);
+    background-color: var(--color-slategray-100);
+    width: 583px;
+    height: 1px;
+  }
+  .text2 {
+    margin: 0;
+    top: 3614px;
+  }
+  .snooker-landing-page-desktop-child2,
+  .snooker-landing-page-desktop-child3 {
+    top: 3760px;
+  }
+  .snooker-landing-page-desktop-child3 {
+    top: 3900px;
+    left: 44px;
+  }
+  .last-name {
+    position: absolute;
+    top: 3670px;
+    display: inline-block;
+    width: 161px;
+    height: 39px;
+  }
+  .email,
+  .last-name,
+  .message {
+    left: 49px;
+    font-weight: 500;
+    font-family: var(--font-farro);
+  }
+  .email {
+    position: absolute;
+    top: 3805px;
+    display: inline-block;
+    width: 86px;
+    height: 31px;
+  }
+  .message {
+    top: 3968px;
+    width: 127px;
+    height: 28px;
+  }
+  .adress,
+  .message,
+  .st-floor-4th,
+  .text3 {
+    position: absolute;
+    display: inline-block;
+  }
+  .text3 {
+    border: 0;
+    font-weight: 500;
+    font-family: var(--font-fira-sans);
+    font-size: var(--font-size-lg);
+    background-color: white;
+    top: 3720px;
+    left: 49px;
+    color: black;
+    text-align: left;
+    width: 108px;
+    height: 27px;
+  }
+  .adress,
+  .st-floor-4th {
+    top: 2.46px;
+    left: 47.48px;
+    width: 68.18px;
+    height: 27.07px;
+  }
+  .st-floor-4th {
+    top: 53.81px;
+    left: 47.57px;
+    font-weight: 500;
+    color: var(--color-silver);
+    width: 450px;
+    height: 54px;
+  }
+  .map-pin-2-line-icon {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 29.22px;
+    height: 29.53px;
+    overflow: hidden;
+  }
+  .adress-parent,
+  .mobile-number {
+    position: absolute;
+    top: 3961.19px;
+    left: 686px;
+    width: 497.57px;
+    height: 107.81px;
+  }
+  .mobile-number {
+    top: 3571px;
+    left: 733.57px;
+    width: 151px;
+    height: 27px;
+  }
+  .call,
+  .div3,
+  .mobile-number {
+    display: inline-block;
+  }
+  .div3 {
+    position: absolute;
+    top: 3733px;
+    left: 686.57px;
+    font-weight: 500;
+    color: var(--color-silver);
+    width: 151px;
+    height: 27px;
+  }
+  .call {
+    position: relative;
+    font-size: var(--font-size-smi);
+    line-height: 28px;
+    font-family: var(--font-fira-sans);
+    color: var(--color-white);
+    text-align: center;
+    width: 26.79px;
+    height: 34.45px;
+    flex-shrink: 0;
+  }
+  .button,
+  .button-2 {
+    cursor: pointer;
+    border: 0;
+    padding: 0;
+    background-color: var(--color-mediumblue);
+    position: absolute;
+    top: 3649px;
+    left: 854.57px;
+    border-radius: var(--br-11xl);
+    box-shadow: 0 0 10px rgba(64, 106, 255, 0.24);
+    width: 130.28px;
+    height: 33.47px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-end;
+  }
+  .button-2 {
+    top: 3730px;
+    left: 855.57px;
+    box-shadow: 0 1px 10px rgba(64, 106, 255, 0.24);
+  }
+  .phone-line-icon {
+    position: absolute;
+    top: 3570px;
+    left: 686.57px;
+    width: 29px;
+    height: 30px;
+    overflow: hidden;
+  }
+  .e-mail,
+  .sampleexamplecom {
+    display: inline-block;
+    height: 27px;
+  }
+  .e-mail {
+    position: absolute;
+    top: 3812px;
+    left: 733.57px;
+    width: 63px;
+  }
+  .sampleexamplecom {
+    top: 3887px;
+    font-weight: 500;
+    color: var(--color-silver);
+    width: 226px;
+  }
+  .div4,
+  .message-3-line-icon,
+  .sampleexamplecom {
+    position: absolute;
+    left: 686.57px;
+  }
+  .message-3-line-icon {
+    top: 3811px;
+    width: 29px;
+    height: 29px;
+    overflow: hidden;
+  }
+  .div4 {
+    top: 3648px;
+    font-weight: 500;
+    display: inline-block;
+    width: 150px;
+    height: 35px;
+  }
+  .footer {
+    position: absolute;
+    top: 4248px;
+    left: 0;
+    background: linear-gradient(180deg, #003adb, rgba(0, 58, 219, 0) 95.83%);
+    width: 100vw;
+    height: 283px;
+  }
+  .frame-child {
+    position: absolute;
+    top: 261.14px;
+    left: 0;
+    background-color: var(--color-gray-200);
+    width: 1918px;
+    height: 551px;
+  }
+  .copyright-2020 {
+    position: absolute;
+    width: 24.66%;
+    top: calc(50% - 346px);
+    left: 41.08%;
+    letter-spacing: -0.2px;
+    display: inline-block;
+    opacity: 0.5;
+    mix-blend-mode: normal;
+  }
+  .link-icon {
+    position: absolute;
+    height: 4.31%;
+    width: 8.76%;
+    top: 0;
+    right: 46.19%;
+    bottom: 95.69%;
+    left: 45.05%;
+    max-width: 100%;
+    overflow: hidden;
+    max-height: 100%;
+  }
+  .rectangle-parent,
+  .the-que-club {
+    position: absolute;
+    top: 4376px;
+    left: -342px;
+    width: 1918px;
+    height: 812px;
+    font-size: var(--font-size-mini);
+  }
+  .the-que-club {
+    top: 4281px;
+    left: 513px;
+    font-size: var(--font-size-13xl);
+    letter-spacing: 5px;
+    display: inline-block;
+    font-family: var(--font-farro);
+    text-align: center;
+    width: 185px;
+    height: 95px;
+  }
+  .text4 {
+    margin: 0;
+    position: absolute;
+    top: 4052px;
+    left: 44px;
+    border-radius: var(--br-9xs);
+    background-color: var(--color-slategray-100);
+    width: 583px;
+    height: 1px;
+  }
+  .background {
+    position: relative;
+    background-color: var(--color-gray-100);
+    width: 100%;
+    height: 4530px;
+    overflow: hidden;
+    text-align: left;
+    font-size: var(--font-size-lg);
+    color: var(--color-white);
+    font-family: var(--font-fira-sans);
+  }
+  .Blue-line{
+    display: flex;
+  }
+  @media screen and (max-width: 1200px) {
+    .button-3 {
+      align-items: flex-end;
+      justify-content: flex-start;
+    }
+  }
+  /* Smartphones (portrait and landscape) ----------- */
+@media only screen 
+and (min-device-width : 320px) 
+and (max-device-width : 480px) {
+/* Styles */
+}
+
+/* Smartphones (landscape) ----------- */
+@media only screen 
+and (min-width : 321px) {
+/* Styles */
+}
+
+/* Smartphones (portrait) ----------- */
+@media only screen 
+and (max-width : 320px) {
+/* Styles */
+}
+
+/* iPads (portrait and landscape) ----------- */
+@media only screen 
+and (min-device-width : 768px) 
+and (max-device-width : 1024px) {
+/* Styles */
+}
+
+/* iPads (landscape) ----------- */
+@media only screen 
+and (min-device-width : 768px) 
+and (max-device-width : 1024px) 
+and (orientation : landscape) {
+/* Styles */
+}
+
+/* iPads (portrait) ----------- */
+@media only screen 
+and (min-device-width : 768px) 
+and (max-device-width : 1024px) 
+and (orientation : portrait) {
+/* Styles */
+}
+
+/* Desktops and laptops ----------- */
+@media only screen 
+and (min-width : 1224px) {
+/* Styles */
+}
+
+/* Large screens ----------- */
+@media only screen 
+and (min-width : 1824px) {
+/* Styles */
+}
+
+/* iPhone 4 ----------- */
+@media
+only screen and (-webkit-min-device-pixel-ratio : 1.5),
+only screen and (min-device-pixel-ratio : 1.5) {
+/* Styles */
+}
+  

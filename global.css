@@ -1,0 +1,31 @@
+body {
+    margin: 0;
+    line-height: normal;
+    background-color: rgb(10,10,29)
+  }
+  
+  :root {
+    /* fonts */
+    --font-fira-sans: "Fira Sans";
+    --font-farro: Farro;
+    --font-goblin-one: "Goblin One";
+  
+    /* font sizes */
+    --font-size-5xl: 24px;
+    --font-size-6xl: 25px;
+    --font-size-21xl: 40px;
+    --font-size-lg: 18px;
+    --font-size-smi: 13px;
+  
+    /* Colors */
+    --color-black: #000;
+    --color-white: #fff;
+    --color-mediumblue: #003adb;
+    --color-silver: #b6b6b6;
+  
+    /* Paddings */
+    --padding-3xs: 10px;
+  
+    /* border radiuses */
+    --br-11xl: 30px;
+  }
